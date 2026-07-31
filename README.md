@@ -263,7 +263,7 @@ Customer_Churn_Prediction/
 
 ### Correlation Heatmap
 
-![Correaltion Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 ### Streamlit Application
 
