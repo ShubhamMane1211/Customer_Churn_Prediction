@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "customer-churn-predictor"
+version = "0.1.0"
+description = "Bank customer churn prediction package and Streamlit interface."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["joblib>=1.3", "pandas>=2.0", "scikit-learn>=1.3", "streamlit>=1.30"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+churn-predict = "churn_predictor.inference:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

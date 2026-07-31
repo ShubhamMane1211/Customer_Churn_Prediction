@@ -1,0 +1,6 @@
+{
+  "model_name": "Gradient Boosting",
+  "threshold": 0.28878018831560215,
+  "roc_auc": 0.8687285127963095,
+  "pr_auc": 0.7183321264709064
+}
